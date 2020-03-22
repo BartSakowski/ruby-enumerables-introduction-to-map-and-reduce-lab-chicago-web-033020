@@ -56,13 +56,13 @@ end
 
 def reduce_to_total(source_array, starting_point)
   i = 0
-  if starting_point!!
+  if starting_point
     new_value = starting_point
     while i < source_array.length do
       new_value += source_array[i]
       i += 1
     end
-  else starting_point!
+  else starting_point
     new_value = 0
     while i < source_array.length do
       new_value += source_array[i]
