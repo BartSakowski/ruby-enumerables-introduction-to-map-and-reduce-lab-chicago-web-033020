@@ -50,16 +50,6 @@ i = 0
 new_value
 end
 
-def reduce_to_total(source_array)
-new_value = 0
-  i = 0
-  while i < source_array.length do
-    new_value += source_array[i]
-    i += 1
-
-  end
-new_value
-end
 
 def reduce_to_all_true(source_array)
 
