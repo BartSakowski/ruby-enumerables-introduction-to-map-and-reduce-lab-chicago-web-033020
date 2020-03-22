@@ -89,7 +89,6 @@ def reduce_to_all_true(source_array)
       return false if source_array[1] == false
       i += 1
     end
-  new_value
 end
 
 
