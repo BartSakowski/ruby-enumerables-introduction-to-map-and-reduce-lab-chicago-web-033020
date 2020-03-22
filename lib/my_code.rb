@@ -43,6 +43,17 @@ i = 0
 new_value
 end
 
+
+def reduce_to_total(source_array)
+  i = 0
+  new_value = 0
+  while i < source_array.length do
+    new_value += source_array[1]
+    i += 1
+  end
+  new_value
+end
+
 def reduce_to_total(source_array, starting_point)
   i = 0
   if starting_point!!
@@ -66,7 +77,6 @@ end
 def reduce_to_all_true(source_array)
 
 i = 0
-
 
 end
 
