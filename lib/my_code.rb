@@ -87,7 +87,7 @@ def reduce_to_all_true(source_array)
 
 i = 0
 while true do
-  break if i >= n
+  break if i >= source_array.length
   source_array
   i += 1
 end
